@@ -7,7 +7,7 @@ with open("default-dict.txt") as f:
 #print(score)
 input_string = input('Enter your scrabble word to get total score: ')
 print("\n")
-#Method1
+#Method1 using lambda function
 scrabble_score = lambda word: sum([score[l] for l in word.lower()])
 # Method2
 """def scrabble_score(word):
